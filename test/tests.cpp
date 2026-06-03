@@ -1,7 +1,7 @@
 // Copyright 2025 UNN-CS
-#include "alg.h"
-#include <cstdint>
 #include <gtest/gtest.h>
+#include <cstdint>
+#include "alg.h"
 
 TEST(PrimeTask, sumPrime_LargeBound) {
   const uint64_t out_res = sumPrime(2000000);
